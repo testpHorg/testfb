@@ -1,0 +1,68 @@
+.materi-container{
+    display:flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.next-page:hover{ text-decoration: none; }
+.next-page:visited{ text-decoration: none; }
+.next-page{
+    float: right;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #EEEEEE;
+    color: #37A691;
+}
+.next-page:hover{
+    cursor: pointer;
+    background-color: #37A691;
+    color: white;
+}
+
+.prev-page{
+    float: left;
+}
+
+
+.submateri-next:hover{ text-decoration: none; }
+.submateri-next:visited{ text-decoration: none; }
+.submateri-next{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #EEEEEE;
+    color: #37A691;
+}
+.submateri-next:hover{
+    cursor: pointer;
+    background-color: #37A691;
+    color: white;
+}
+
+
+.video-iframe{
+    width: 100%
+}
+
+.materi-item:hover{ text-decoration: none; }
+.materi-item:visited{ text-decoration: none; }
+.materi-item{
+    display: block;
+    min-width: 400px;
+    flex: 45%;
+    padding: 20px;
+    gap: 10px;
+    margin: 10px;
+    font-size: 1.4em;
+    font-weight: bold;
+    background-color: #EEEEEE;
+    color: #656565;
+}
+
+.materi-item:hover{
+    cursor: pointer;
+    background-color: #37A691;
+    color: white;
+}
+
