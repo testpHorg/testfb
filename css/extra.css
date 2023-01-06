@@ -4,6 +4,10 @@
     margin: auto;
 }
 
+.ilust{
+    display: block;
+}
+
 .next-page:hover{ text-decoration: none; }
 .next-page:visited{ text-decoration: none; }
 .next-page{
