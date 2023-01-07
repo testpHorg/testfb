@@ -816,6 +816,9 @@ ul.social-network li {
 
 /* scroll to top */
 .scrollup{
+    color: white;
+    font-weight: bold;
+    padding-top: 5px;
     position:fixed;
 	width:32px;
 	height:32px;
