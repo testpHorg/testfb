@@ -9,12 +9,6 @@
 /* border: 1px solid #3AA994 !important; */
 }
 
-.materi-container{
-    display:flex;
-    flex-wrap: wrap;
-    margin: auto;
-}
-
 .ilust{
     display: block;
 }
@@ -60,12 +54,30 @@
     width: 100%
 }
 
+.materi-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.materi-item > img {
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.materi-item:hover > img{ 
+    filter: grayscale(50%);
+}
 .materi-item:hover{ text-decoration: none; }
 .materi-item:visited{ text-decoration: none; }
 .materi-item{
+    border-radius: 5px;
     display: block;
-    min-width: 400px;
-    flex: 45%;
+    width: 220px;
+    text-align: center;
+    /* min-width: 220px; */
+    /* max-width: 220px; */
+    /* flex: 24%; */
     padding: 20px;
     gap: 10px;
     margin: 10px;
