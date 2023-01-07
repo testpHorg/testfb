@@ -44,13 +44,6 @@ h1,h2, h3, h4, h5, h6 {
     padding: 10px;
 }
 
-.col-md-12 > h3 {
-    color: #37A691;  
-/* background: #52C2AD; */
-/* border: 1px solid #3AA994 !important; */
-}
-
-
 .col-md-12 > ol > li::marker {
     font-weight: bold;
     /* color: #37A691; */  
