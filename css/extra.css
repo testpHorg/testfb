@@ -182,3 +182,10 @@ table td, table td * {
     color: white;
 }
 
+
+.nav > li > a {
+    background-color: #37A691;
+    color: white;
+}
+
+
