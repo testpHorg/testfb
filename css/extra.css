@@ -13,6 +13,10 @@
   text-align: justify;
   text-justify: inter-word;
 }
+.col-md-12 {
+  text-align: justify;
+  text-justify: inter-word;
+}
 
 table td, table td * {
     vertical-align: top;
