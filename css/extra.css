@@ -3,6 +3,16 @@
 /* background: #52C2AD; */
 /* border: 1px solid #3AA994 !important; */
 }
+
+.col-md-6 {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+table td, table td * {
+    vertical-align: top;
+}
+
 .col-md-6 > h3 {
     color: #37A691;  
 /* background: #52C2AD; */
@@ -18,6 +28,7 @@
 .next-page{
     float: right;
     padding: 10px;
+    padding-left: 40px;
     font-weight: bold;
     background-color: #EEEEEE;
     color: #37A691;
@@ -28,8 +39,86 @@
     color: white;
 }
 
+.next-page {
+  width: 200px;
+  height: 40px;
+  position: relative;
+  /* background: red; */
+}
+.next-page:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid white;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+.next-page:before {
+  content: "";
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid #EEEEEE;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+.next-page:hover:before{
+  border-left: 20px solid #37A691;
+}
+
+
 .prev-page{
     float: left;
+}
+.prev-page {
+  width: 200px;
+  height: 40px;
+  position: relative;
+  /* background: red; */
+}
+.prev-page:after {
+  content: "";
+  position: absolute;
+  left: -20px;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-right: 20px solid #EEEEEE;
+  border-left: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+.prev-page:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  /* left : 0; */
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-right: 20px solid white;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+/* .next-page:after { */
+/*   content: ""; */
+/*   position: absolute; */
+/*   left: 0; */
+/*   bottom: 0; */
+/*   width: 0; */
+/*   height: 0; */
+/*   border-left: 20px solid white; */
+/*   border-top: 20px solid transparent; */
+/*   border-bottom: 20px solid transparent; */
+/* } */
+.prev-page:hover:after{
+  border-right: 20px solid #37A691;
 }
 
 

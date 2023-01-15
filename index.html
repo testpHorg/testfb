@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="id">
+<!DOCTYPE html><html lang="id">
 <head>
 <meta charset="utf-8">
 <title>fb web</title>
@@ -14,6 +13,7 @@
 <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet" />
 <link href="css/extra.css" rel="stylesheet" />
+<!-- <script src="https://kit.fontawesome.com/a5f4a43381.js" crossorigin="anonymous"></script> -->
  
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
@@ -58,9 +58,9 @@
         <div id="main-slider" class="flexslider">
             <ul class="slides">
               <li>
-                <img src="img/slides/3.jpg" alt="" />
+                <img src="img/banner.png" alt="" />
                 <div class="flex-caption">
-                    <h3>Usaha dan Energi</h3> 
+                    <!-- <h3>Usaha dan Energi</h3> --> 
                     <!-- <p>subtext(?)</p> -->  
                 </div>
               </li>
@@ -76,9 +76,20 @@
         <div class="row"><div class="col-md-12">
                 <p>
                     Website pembelajaran ini terbagi menjadi tiga materi pokok. Di dalamnya terdapat uraian materi, video, contoh soal, dan Latihan soal<br>
-                    <strong>Pertama</strong> : Konsep dan rumusan usaha<br>
-                    <strong>Kedua</strong> : Konsep dan rumusan energi yang berkaitan dengan gerak, yaitu energi kinetik, energi potensial, energi mekanik, dan hubungan usaha dengan perubahan energi<br>
-                    <strong>Ketiga</strong> : Hukum kekekalan energi mekanik 
+                    <table>
+                        <tr>
+                            <td><strong>Pertama&nbsp;</strong></td>
+                            <td> : Konsep dan rumusan usaha</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Kedua&nbsp;</strong></td>
+                            <td> : Konsep dan rumusan energi yang berkaitan dengan gerak, yaitu energi kinetik, energi potensial, energi mekanik, dan hubungan usaha dengan perubahan energi</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Ketiga&nbsp;</strong></td>
+                            <td> : Hukum kekekalan energi mekanik</td>
+                        </tr>
+                    </table>
                 </p>
         </div></div>
         <div class="row">
@@ -92,6 +103,7 @@
             </div>
 
             <div class="col-md-6">
+                <br><br>
                 <div class="block-heading-two">
                     <h3><span>Kompetensi Dasar</span></h3>
                 </div>
@@ -106,7 +118,7 @@
         <div class="row">
             <div class="col-md-6"> </div>
             <div class="col-md-6">
-                <a class="next-page" href="./materi.html">&gt; Halaman Berikutnya</a>
+                <a class="next-page" href="./materi.html">Halaman Berikutnya</a>
             </div>
         </div>
 
@@ -116,15 +128,25 @@
     
     </section>
     
-    <footer>
-    <div class="container"> <div class="row"> <div class="col-lg-3">
-        <div class="widget">
-            <h5 class="widgetheading">Kontak</h5>
-                Nama nama <br>
-                email@domain.com
-        </div>
-    </div> </div> </div> </div> 
-    </footer>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+  $("#footer").load("footer.html"); 
+});
+</script> 
+<div id="footer"></div>
+    <!-- <footer> -->
+    <!-- <div class="container"> <div class="row"> <div class="col-lg-3"> -->
+    <!--     <div class="widget"> -->
+    <!--         <h5 class="widgetheading">Kontak</h5> -->
+    <!--             <!-1- Nama nama <br> -1-> -->
+    <!--             <a href="https://www.instagram.com/farisbinawan/"><i class="fab fa-instagram"></i> @farisbinawan</a><br> -->
+    <!--             <a href="https://www.tiktok.com/@farisbinawan"><i class="fab fa-tiktok"></i> @farisbinawan</a><br> -->
+    <!--             <a href="mailto:mfaris.2019@student.uny.ac.id"><i class="fas fa-envelope"></i>mfaris.2019@student.uny.ac.id</a><br> -->
+    <!--     </div> -->
+    <!-- </div> </div> </div> </div> --> 
+    <!-- </footer> -->
 </div>
 <a href="#" class="scrollup">∧</a>
 <!-- javascript
