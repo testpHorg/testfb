@@ -91,8 +91,10 @@ header .navbar {
     font-weight: 700;
     line-height: 1em;
 	letter-spacing: -1px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     padding: 0 0 0 15px;
+    /* height: 43px; */
+    /* width: 153px; */
 }
 .navbar-default .navbar-brand{
 color: #2FADDE;
